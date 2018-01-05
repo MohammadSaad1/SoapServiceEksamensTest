@@ -8,7 +8,10 @@ namespace SoapServiceEksamensTest
 {
     [DataContract]
     public class Catch
+
     {
+        public static List<Catch> CatchList;
+
         [DataMember]
         public int id { get; set; }
 
@@ -21,7 +24,7 @@ namespace SoapServiceEksamensTest
         [DataMember]
         public int uge { get; set; }
 
-        public Catch(int id, string navn, string art, int uge)
+        public Catch()
         {
             this.id = id;
             this.navn = navn;

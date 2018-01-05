@@ -19,10 +19,10 @@ namespace SoapServiceEksamensTest
         Catch GetCatchById(int id);
 
         [OperationContract]
-        string AddCatch(Catch a);
+        int AddCatch(string navn, string art, int uge);
 
-        [OperationContract]
-        string DeleteCatc(int id);
+      //  [OperationContract]
+      //  string DeleteCatc(int id);
 
         [OperationContract]
         string GetData(int value);
