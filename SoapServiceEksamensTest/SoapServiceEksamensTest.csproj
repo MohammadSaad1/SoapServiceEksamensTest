@@ -76,6 +76,7 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Properties\PublishProfiles\SoapServiceEksamens - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\SoapServiceEksamensTest20180101105015 - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\SoapServiceEksamensTest20180104054438 - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
